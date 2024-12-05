@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{84fe62f3-93e4-424a-a048-a6557345f48b}</TemplateID>
+		<Name Package="{524c9a59-6083-4d02-b9f9-4827f856db75}" ID="103"/>
+		<Description Package="{524c9a59-6083-4d02-b9f9-4827f856db75}" ID="102"/>
+		<Icon Package="{524c9a59-6083-4d02-b9f9-4827f856db75}" ID="201" />
+		<ProjectType>CSharp</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>RDMDCM_ProyectoIPS.RDMDCM_DSLProyIPS</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.RDMDCM_DSLProyIPS">RDMDCM_DSLProyIPS.RDMDCM_DSLProyIPS</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.RDMDCM_DSLProyIPS.diagram">RDMDCM_DSLProyIPS.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+

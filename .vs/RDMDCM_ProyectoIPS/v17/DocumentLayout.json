@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rober\\Desktop\\MDD\\IPSMDD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B962F48-43C4-4530-8F5C-2984A93674EF}|Dsl\\Dsl.csproj|c:\\users\\rober\\desktop\\mdd\\ipsmdd\\dsl\\dsldefinition.dsl||{702198C9-D1C6-40AB-804E-06BCF3519AE5}|",
+      "RelativeMoniker": "D:0:0:{5B962F48-43C4-4530-8F5C-2984A93674EF}|Dsl\\Dsl.csproj|solutionrelative:dsl\\dsldefinition.dsl||{702198C9-D1C6-40AB-804E-06BCF3519AE5}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DslDefinition.dsl",
+              "DocumentMoniker": "C:\\Users\\rober\\Desktop\\MDD\\IPSMDD\\Dsl\\DslDefinition.dsl",
+              "RelativeDocumentMoniker": "Dsl\\DslDefinition.dsl",
+              "ToolTip": "C:\\Users\\rober\\Desktop\\MDD\\IPSMDD\\Dsl\\DslDefinition.dsl",
+              "RelativeToolTip": "Dsl\\DslDefinition.dsl",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-05T11:27:37.82Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

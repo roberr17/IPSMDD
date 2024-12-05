@@ -1,0 +1,32 @@
+﻿<VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\1033\RDMDCM_ProyectoIPS</RelativePathOnDisk>
+    <TemplateFileName>CSharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>{84fe62f3-93e4-424a-a048-a6557345f48b}</TemplateID>
+        <Name Package="{524c9a59-6083-4d02-b9f9-4827f856db75}" ID="103" />
+        <Description Package="{524c9a59-6083-4d02-b9f9-4827f856db75}" ID="102" />
+        <Icon Package="{524c9a59-6083-4d02-b9f9-4827f856db75}" ID="201" />
+        <ProjectType>CSharp</ProjectType>
+        <SortOrder>360</SortOrder>
+        <DefaultName>RDMDCM_ProyectoIPS.RDMDCM_DSLProyIPS</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>VisualBasic\1033\RDMDCM_ProyectoIPS</RelativePathOnDisk>
+    <TemplateFileName>VisualBasic.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>{46d2f425-6965-49f7-91b9-6cef59b6975b}</TemplateID>
+        <Name Package="{524c9a59-6083-4d02-b9f9-4827f856db75}" ID="103" />
+        <Description Package="{524c9a59-6083-4d02-b9f9-4827f856db75}" ID="102" />
+        <Icon Package="{524c9a59-6083-4d02-b9f9-4827f856db75}" ID="201" />
+        <ProjectType>VisualBasic</ProjectType>
+        <SortOrder>360</SortOrder>
+        <DefaultName>RDMDCM_ProyectoIPS.RDMDCM_DSLProyIPS</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>
