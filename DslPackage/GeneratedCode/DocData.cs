@@ -305,7 +305,7 @@ namespace UPM_IPS.RDMDCM_ProyectoIPS
 		protected override void Load(string fileName, bool isReload)
 		{
 			DslModeling::SerializationResult serializationResult = new DslModeling::SerializationResult();
-			global::UPM_IPS.RDMDCM_ProyectoIPS.ExampleModel modelRoot = null;
+			global::UPM_IPS.RDMDCM_ProyectoIPS.Tapiz modelRoot = null;
 			DslModeling::ISchemaResolver schemaResolver = new DslShell::ModelingSchemaResolver(this.ServiceProvider);
 			//clear the current root element
 			this.SetRootElement(null);
@@ -410,7 +410,7 @@ namespace UPM_IPS.RDMDCM_ProyectoIPS
 		protected override void Save(string fileName)
 		{
 			DslModeling::SerializationResult serializationResult = new DslModeling::SerializationResult();
-			global::UPM_IPS.RDMDCM_ProyectoIPS.ExampleModel modelRoot = (global::UPM_IPS.RDMDCM_ProyectoIPS.ExampleModel)this.RootElement;
+			global::UPM_IPS.RDMDCM_ProyectoIPS.Tapiz modelRoot = (global::UPM_IPS.RDMDCM_ProyectoIPS.Tapiz)this.RootElement;
 
 			
 			// Only save the diagrams if
@@ -556,7 +556,7 @@ namespace UPM_IPS.RDMDCM_ProyectoIPS
 		{
 			get
 			{
-				global::UPM_IPS.RDMDCM_ProyectoIPS.ExampleModel modelRoot = this.RootElement as global::UPM_IPS.RDMDCM_ProyectoIPS.ExampleModel;
+				global::UPM_IPS.RDMDCM_ProyectoIPS.Tapiz modelRoot = this.RootElement as global::UPM_IPS.RDMDCM_ProyectoIPS.Tapiz;
 				string modelFile = string.Empty;
 				if (modelRoot != null)
 				{

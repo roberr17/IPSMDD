@@ -30,21 +30,70 @@ namespace UPM_IPS.RDMDCM_ProyectoIPS
 	[VSShell::ProvideToolWindowVisibility(typeof(RDMDCM_ProyectoIPSExplorerToolWindow), Constants.RDMDCM_ProyectoIPSEditorFactoryId)]
 	[VSShell::ProvideStaticToolboxGroup("@RDMDCM_ProyectoIPSToolboxTab;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", "UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPSToolboxTab")]
 	[VSShell::ProvideStaticToolboxItem("UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPSToolboxTab",
-					"@ExampleElementToolboxItem;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
-					"UPM_IPS.RDMDCM_ProyectoIPS.ExampleElementToolboxItem", 
+					"@VentanaPrincipalToolToolboxItem;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					"UPM_IPS.RDMDCM_ProyectoIPS.VentanaPrincipalToolToolboxItem", 
 					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 
-					"CreateExampleClassF1Keyword", 
-					"@ExampleElementToolboxBitmap;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					"VentanaPrincipalTool", 
+					"@VentanaPrincipalToolToolboxBitmap;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
 					0xff00ff,
 					Index = 0)]
 	[VSShell::ProvideStaticToolboxItem("UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPSToolboxTab",
-					"@ExampleRelationshipToolboxItem;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
-					"UPM_IPS.RDMDCM_ProyectoIPS.ExampleRelationshipToolboxItem", 
+					"@VentanaSecundariaToolToolboxItem;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					"UPM_IPS.RDMDCM_ProyectoIPS.VentanaSecundariaToolToolboxItem", 
 					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 
-					"ConnectExampleRelationF1Keyword", 
-					"@ExampleRelationshipToolboxBitmap;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					"VentanaSecundariaTool", 
+					"@VentanaSecundariaToolToolboxBitmap;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
 					0xff00ff,
 					Index = 1)]
+	[VSShell::ProvideStaticToolboxItem("UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPSToolboxTab",
+					"@EstadoFinToolToolboxItem;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					"UPM_IPS.RDMDCM_ProyectoIPS.EstadoFinToolToolboxItem", 
+					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 
+					"EstadoFinTool", 
+					"@EstadoFinToolToolboxBitmap;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					0xff00ff,
+					Index = 2)]
+	[VSShell::ProvideStaticToolboxItem("UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPSToolboxTab",
+					"@ItemMenuToolToolboxItem;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					"UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuToolToolboxItem", 
+					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 
+					"ItemMenuTool", 
+					"@ItemMenuToolToolboxBitmap;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					0xff00ff,
+					Index = 3)]
+	[VSShell::ProvideStaticToolboxItem("UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPSToolboxTab",
+					"@BotonToolToolboxItem;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					"UPM_IPS.RDMDCM_ProyectoIPS.BotonToolToolboxItem", 
+					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 
+					"BotonTool", 
+					"@BotonToolToolboxBitmap;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					0xff00ff,
+					Index = 4)]
+	[VSShell::ProvideStaticToolboxItem("UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPSToolboxTab",
+					"@MenuToolToolboxItem;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					"UPM_IPS.RDMDCM_ProyectoIPS.MenuToolToolboxItem", 
+					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 
+					"MenuTool", 
+					"@MenuToolToolboxBitmap;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					0xff00ff,
+					Index = 5)]
+	[VSShell::ProvideStaticToolboxGroup("@RDMDCM_ProyectoIPS2ToolboxTab;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", "UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPS2ToolboxTab")]
+	[VSShell::ProvideStaticToolboxItem("UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPS2ToolboxTab",
+					"@RelacionAccionToolboxItem;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					"UPM_IPS.RDMDCM_ProyectoIPS.RelacionAccionToolboxItem", 
+					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 
+					"RelacionAccion", 
+					"@RelacionAccionToolboxBitmap;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					0xff00ff,
+					Index = 6)]
+	[VSShell::ProvideStaticToolboxItem("UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPS2ToolboxTab",
+					"@RelacionFinToolboxItem;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					"UPM_IPS.RDMDCM_ProyectoIPS.RelacionFinToolboxItem", 
+					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 
+					"RelacionFin", 
+					"@RelacionFinToolboxBitmap;UPM_IPS.RDMDCM_ProyectoIPS.Dsl.dll", 
+					0xff00ff,
+					Index = 7)]
 	[VSShell::ProvideEditorFactory(typeof(RDMDCM_ProyectoIPSEditorFactory), 103, TrustLevel = VSShellInterop::__VSEDITORTRUSTLEVEL.ETL_AlwaysTrusted)]
 	[VSShell::ProvideEditorExtension(typeof(RDMDCM_ProyectoIPSEditorFactory), "." + Constants.DesignerFileExtension, 50)]
 	[VSShell::ProvideEditorLogicalView(typeof(RDMDCM_ProyectoIPSEditorFactory), "{7651A702-06E5-11D1-8EBD-00A0C90F26EA}")] // Designer logical view GUID i.e. VSConstants.LOGVIEWID_Designer

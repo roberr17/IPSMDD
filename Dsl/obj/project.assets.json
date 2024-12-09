@@ -8630,20 +8630,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rober\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rober\\Desktop\\MDD\\IPSMDD\\Dsl\\Dsl.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\CURSO2024_2025\\MDD1\\IPSMDD\\Dsl\\Dsl.csproj",
       "projectName": "UPM_IPS.RDMDCM_ProyectoIPS.Dsl",
-      "projectPath": "C:\\Users\\rober\\Desktop\\MDD\\IPSMDD\\Dsl\\Dsl.csproj",
-      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rober\\Desktop\\MDD\\IPSMDD\\Dsl\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\CURSO2024_2025\\MDD1\\IPSMDD\\Dsl\\Dsl.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\CURSO2024_2025\\MDD1\\IPSMDD\\Dsl\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8657,11 +8657,6 @@
         "net472": {
           "projectReferences": {}
         }
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

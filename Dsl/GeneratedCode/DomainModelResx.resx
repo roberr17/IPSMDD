@@ -1,1 +1,903 @@
-﻿ErrorGeneratingOutput
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPSDomainModel.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPS</value>
+    <comment>Description for DslLibrary &apos;RDMDCM_ProyectoIPS&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPSDomainModel.DisplayName" xml:space="preserve">
+    <value>RDMDCM_ProyectoIPS</value>
+    <comment>DisplayName for DslLibrary &apos;RDMDCM_ProyectoIPS&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Tapiz.Description" xml:space="preserve">
+    <value>The root in which all other elements are embedded. Appears as a diagram.</value>
+    <comment>Description for DomainClass &apos;Tapiz&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Tapiz.DisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>DisplayName for DomainClass &apos;Tapiz&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Tapiz/solucionDiagrama.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.Tapiz.Solucion Diagrama</value>
+    <comment>Description for DomainProperty &apos;solucionDiagrama&apos; on DomainClass &apos;Tapiz&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Tapiz/solucionDiagrama.DisplayName" xml:space="preserve">
+    <value>Solucion Diagrama</value>
+    <comment>DisplayName for DomainProperty &apos;solucionDiagrama&apos; on DomainClass &apos;Tapiz&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Ventana.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.Ventana</value>
+    <comment>Description for DomainClass &apos;Ventana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Ventana.DisplayName" xml:space="preserve">
+    <value>Ventana</value>
+    <comment>DisplayName for DomainClass &apos;Ventana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Ventana/nombre.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.Ventana.Nombre</value>
+    <comment>Description for DomainProperty &apos;nombre&apos; on DomainClass &apos;Ventana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Ventana/nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;nombre&apos; on DomainClass &apos;Ventana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Ventana/ancho.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.Ventana.Ancho</value>
+    <comment>Description for DomainProperty &apos;ancho&apos; on DomainClass &apos;Ventana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Ventana/ancho.DisplayName" xml:space="preserve">
+    <value>Ancho</value>
+    <comment>DisplayName for DomainProperty &apos;ancho&apos; on DomainClass &apos;Ventana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Ventana/alto.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.Ventana.Alto</value>
+    <comment>Description for DomainProperty &apos;alto&apos; on DomainClass &apos;Ventana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Ventana/alto.DisplayName" xml:space="preserve">
+    <value>Alto</value>
+    <comment>DisplayName for DomainProperty &apos;alto&apos; on DomainClass &apos;Ventana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaSecundaria.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.VentanaSecundaria</value>
+    <comment>Description for DomainClass &apos;VentanaSecundaria&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaSecundaria.DisplayName" xml:space="preserve">
+    <value>Ventana Secundaria</value>
+    <comment>DisplayName for DomainClass &apos;VentanaSecundaria&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaSecundaria/modal.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.VentanaSecundaria.Modal</value>
+    <comment>Description for DomainProperty &apos;modal&apos; on DomainClass &apos;VentanaSecundaria&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaSecundaria/modal.DisplayName" xml:space="preserve">
+    <value>Modal</value>
+    <comment>DisplayName for DomainProperty &apos;modal&apos; on DomainClass &apos;VentanaSecundaria&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Boton.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.Boton</value>
+    <comment>Description for DomainClass &apos;Boton&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Boton.DisplayName" xml:space="preserve">
+    <value>Boton</value>
+    <comment>DisplayName for DomainClass &apos;Boton&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Boton/nombre.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.Boton.Nombre</value>
+    <comment>Description for DomainProperty &apos;nombre&apos; on DomainClass &apos;Boton&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Boton/nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;nombre&apos; on DomainClass &apos;Boton&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Menu.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.Menu</value>
+    <comment>Description for DomainClass &apos;Menu&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Menu.DisplayName" xml:space="preserve">
+    <value>Menu</value>
+    <comment>DisplayName for DomainClass &apos;Menu&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Menu/nombre.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.Menu.Nombre</value>
+    <comment>Description for DomainProperty &apos;nombre&apos; on DomainClass &apos;Menu&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.Menu/nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;nombre&apos; on DomainClass &apos;Menu&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenu.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.ItemMenu</value>
+    <comment>Description for DomainClass &apos;ItemMenu&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenu.DisplayName" xml:space="preserve">
+    <value>Item Menu</value>
+    <comment>DisplayName for DomainClass &apos;ItemMenu&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenu/nombre.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.ItemMenu.Nombre</value>
+    <comment>Description for DomainProperty &apos;nombre&apos; on DomainClass &apos;ItemMenu&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenu/nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;nombre&apos; on DomainClass &apos;ItemMenu&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.EstadoFin.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.EstadoFin</value>
+    <comment>Description for DomainClass &apos;EstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.EstadoFin.DisplayName" xml:space="preserve">
+    <value>Estado Fin</value>
+    <comment>DisplayName for DomainClass &apos;EstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.EstadoFin/nombre.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.EstadoFin.Nombre</value>
+    <comment>Description for DomainProperty &apos;nombre&apos; on DomainClass &apos;EstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.EstadoFin/nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;nombre&apos; on DomainClass &apos;EstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaPrincipal.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.VentanaPrincipal</value>
+    <comment>Description for DomainClass &apos;VentanaPrincipal&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaPrincipal.DisplayName" xml:space="preserve">
+    <value>Ventana Principal</value>
+    <comment>DisplayName for DomainClass &apos;VentanaPrincipal&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasVentanas.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.TapizHasVentanas</value>
+    <comment>Description for DomainClass &apos;TapizHasVentanas&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasVentanas.DisplayName" xml:space="preserve">
+    <value>Tapiz Has Ventanas</value>
+    <comment>DisplayName for DomainClass &apos;TapizHasVentanas&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasVentanas/Tapiz.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.TapizHasVentanas.Tapiz</value>
+    <comment>Description for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasVentanas&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasVentanas/Tapiz.DisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>DisplayName for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasVentanas&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasVentanas/Tapiz.PropertyDisplayName" xml:space="preserve">
+    <value>Ventanas</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasVentanas&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasVentanas/Ventana.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.TapizHasVentanas.Ventana</value>
+    <comment>Description for DomainRole &apos;Ventana&apos; on DomainRelationship &apos;TapizHasVentanas&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasVentanas/Ventana.DisplayName" xml:space="preserve">
+    <value>Ventana</value>
+    <comment>DisplayName for DomainRole &apos;Ventana&apos; on DomainRelationship &apos;TapizHasVentanas&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasVentanas/Ventana.PropertyDisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Ventana&apos; on DomainRelationship &apos;TapizHasVentanas&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasMenus.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasMenus</value>
+    <comment>Description for DomainClass &apos;VentanaHasMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasMenus.DisplayName" xml:space="preserve">
+    <value>Ventana Has Menus</value>
+    <comment>DisplayName for DomainClass &apos;VentanaHasMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasMenus/Ventana.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasMenus.Ventana</value>
+    <comment>Description for DomainRole &apos;Ventana&apos; on DomainRelationship &apos;VentanaHasMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasMenus/Ventana.DisplayName" xml:space="preserve">
+    <value>Ventana</value>
+    <comment>DisplayName for DomainRole &apos;Ventana&apos; on DomainRelationship &apos;VentanaHasMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasMenus/Ventana.PropertyDisplayName" xml:space="preserve">
+    <value>Menus</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Ventana&apos; on DomainRelationship &apos;VentanaHasMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasMenus/Menu.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasMenus.Menu</value>
+    <comment>Description for DomainRole &apos;Menu&apos; on DomainRelationship &apos;VentanaHasMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasMenus/Menu.DisplayName" xml:space="preserve">
+    <value>Menu</value>
+    <comment>DisplayName for DomainRole &apos;Menu&apos; on DomainRelationship &apos;VentanaHasMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasMenus/Menu.PropertyDisplayName" xml:space="preserve">
+    <value>Ventana</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Menu&apos; on DomainRelationship &apos;VentanaHasMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MenuHasItemMenus.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.MenuHasItemMenus</value>
+    <comment>Description for DomainClass &apos;MenuHasItemMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MenuHasItemMenus.DisplayName" xml:space="preserve">
+    <value>Menu Has Item Menus</value>
+    <comment>DisplayName for DomainClass &apos;MenuHasItemMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MenuHasItemMenus/Menu.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.MenuHasItemMenus.Menu</value>
+    <comment>Description for DomainRole &apos;Menu&apos; on DomainRelationship &apos;MenuHasItemMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MenuHasItemMenus/Menu.DisplayName" xml:space="preserve">
+    <value>Menu</value>
+    <comment>DisplayName for DomainRole &apos;Menu&apos; on DomainRelationship &apos;MenuHasItemMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MenuHasItemMenus/Menu.PropertyDisplayName" xml:space="preserve">
+    <value>Item Menus</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Menu&apos; on DomainRelationship &apos;MenuHasItemMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MenuHasItemMenus/ItemMenu.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.MenuHasItemMenus.ItemMenu</value>
+    <comment>Description for DomainRole &apos;ItemMenu&apos; on DomainRelationship &apos;MenuHasItemMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MenuHasItemMenus/ItemMenu.DisplayName" xml:space="preserve">
+    <value>Item Menu</value>
+    <comment>DisplayName for DomainRole &apos;ItemMenu&apos; on DomainRelationship &apos;MenuHasItemMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MenuHasItemMenus/ItemMenu.PropertyDisplayName" xml:space="preserve">
+    <value>Menu</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ItemMenu&apos; on DomainRelationship &apos;MenuHasItemMenus&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasBotons.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasBotons</value>
+    <comment>Description for DomainClass &apos;VentanaHasBotons&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasBotons.DisplayName" xml:space="preserve">
+    <value>Ventana Has Botons</value>
+    <comment>DisplayName for DomainClass &apos;VentanaHasBotons&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasBotons/Ventana.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasBotons.Ventana</value>
+    <comment>Description for DomainRole &apos;Ventana&apos; on DomainRelationship &apos;VentanaHasBotons&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasBotons/Ventana.DisplayName" xml:space="preserve">
+    <value>Ventana</value>
+    <comment>DisplayName for DomainRole &apos;Ventana&apos; on DomainRelationship &apos;VentanaHasBotons&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasBotons/Ventana.PropertyDisplayName" xml:space="preserve">
+    <value>Botons</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Ventana&apos; on DomainRelationship &apos;VentanaHasBotons&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasBotons/Boton.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasBotons.Boton</value>
+    <comment>Description for DomainRole &apos;Boton&apos; on DomainRelationship &apos;VentanaHasBotons&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasBotons/Boton.DisplayName" xml:space="preserve">
+    <value>Boton</value>
+    <comment>DisplayName for DomainRole &apos;Boton&apos; on DomainRelationship &apos;VentanaHasBotons&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.VentanaHasBotons/Boton.PropertyDisplayName" xml:space="preserve">
+    <value>Ventana</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Boton&apos; on DomainRelationship &apos;VentanaHasBotons&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasEstadoFinned.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.TapizHasEstadoFinned</value>
+    <comment>Description for DomainClass &apos;TapizHasEstadoFinned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasEstadoFinned.DisplayName" xml:space="preserve">
+    <value>Tapiz Has Estado Finned</value>
+    <comment>DisplayName for DomainClass &apos;TapizHasEstadoFinned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasEstadoFinned/Tapiz.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.TapizHasEstadoFinned.Tapiz</value>
+    <comment>Description for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEstadoFinned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasEstadoFinned/Tapiz.DisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>DisplayName for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEstadoFinned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasEstadoFinned/Tapiz.PropertyDisplayName" xml:space="preserve">
+    <value>Estado Finned</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEstadoFinned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasEstadoFinned/EstadoFin.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.TapizHasEstadoFinned.EstadoFin</value>
+    <comment>Description for DomainRole &apos;EstadoFin&apos; on DomainRelationship &apos;TapizHasEstadoFinned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasEstadoFinned/EstadoFin.DisplayName" xml:space="preserve">
+    <value>Estado Fin</value>
+    <comment>DisplayName for DomainRole &apos;EstadoFin&apos; on DomainRelationship &apos;TapizHasEstadoFinned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.TapizHasEstadoFinned/EstadoFin.PropertyDisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EstadoFin&apos; on DomainRelationship &apos;TapizHasEstadoFinned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesVentana.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesVentana</value>
+    <comment>Description for DomainClass &apos;ItemMenuReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesVentana.DisplayName" xml:space="preserve">
+    <value>Item Menu References Ventana</value>
+    <comment>DisplayName for DomainClass &apos;ItemMenuReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesVentana/ItemMenu.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesVentana.ItemMenu</value>
+    <comment>Description for DomainRole &apos;ItemMenu&apos; on DomainRelationship &apos;ItemMenuReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesVentana/ItemMenu.DisplayName" xml:space="preserve">
+    <value>Item Menu</value>
+    <comment>DisplayName for DomainRole &apos;ItemMenu&apos; on DomainRelationship &apos;ItemMenuReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesVentana/ItemMenu.PropertyDisplayName" xml:space="preserve">
+    <value>Ventana</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ItemMenu&apos; on DomainRelationship &apos;ItemMenuReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesVentana/Ventana.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesVentana.Ventana</value>
+    <comment>Description for DomainRole &apos;Ventana&apos; on DomainRelationship &apos;ItemMenuReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesVentana/Ventana.DisplayName" xml:space="preserve">
+    <value>Ventana</value>
+    <comment>DisplayName for DomainRole &apos;Ventana&apos; on DomainRelationship &apos;ItemMenuReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesVentana/Ventana.PropertyDisplayName" xml:space="preserve">
+    <value>Item Menu</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Ventana&apos; on DomainRelationship &apos;ItemMenuReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesVentana.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesVentana</value>
+    <comment>Description for DomainClass &apos;BotonReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesVentana.DisplayName" xml:space="preserve">
+    <value>Boton References Ventana</value>
+    <comment>DisplayName for DomainClass &apos;BotonReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesVentana/Boton.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesVentana.Boton</value>
+    <comment>Description for DomainRole &apos;Boton&apos; on DomainRelationship &apos;BotonReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesVentana/Boton.DisplayName" xml:space="preserve">
+    <value>Boton</value>
+    <comment>DisplayName for DomainRole &apos;Boton&apos; on DomainRelationship &apos;BotonReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesVentana/Boton.PropertyDisplayName" xml:space="preserve">
+    <value>Ventana Referenciada</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Boton&apos; on DomainRelationship &apos;BotonReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesVentana/VentanaReferenciada.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesVentana.VentanaReferenciada</value>
+    <comment>Description for DomainRole &apos;VentanaReferenciada&apos; on DomainRelationship &apos;BotonReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesVentana/VentanaReferenciada.DisplayName" xml:space="preserve">
+    <value>Ventana Referenciada</value>
+    <comment>DisplayName for DomainRole &apos;VentanaReferenciada&apos; on DomainRelationship &apos;BotonReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesVentana/VentanaReferenciada.PropertyDisplayName" xml:space="preserve">
+    <value>Boton</value>
+    <comment>PropertyDisplayName for DomainRole &apos;VentanaReferenciada&apos; on DomainRelationship &apos;BotonReferencesVentana&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesEstadoFin.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesEstadoFin</value>
+    <comment>Description for DomainClass &apos;ItemMenuReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesEstadoFin.DisplayName" xml:space="preserve">
+    <value>Item Menu References Estado Fin</value>
+    <comment>DisplayName for DomainClass &apos;ItemMenuReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesEstadoFin/ItemMenu.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesEstadoFin.ItemMenu</value>
+    <comment>Description for DomainRole &apos;ItemMenu&apos; on DomainRelationship &apos;ItemMenuReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesEstadoFin/ItemMenu.DisplayName" xml:space="preserve">
+    <value>Item Menu</value>
+    <comment>DisplayName for DomainRole &apos;ItemMenu&apos; on DomainRelationship &apos;ItemMenuReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesEstadoFin/ItemMenu.PropertyDisplayName" xml:space="preserve">
+    <value>Estado Fin</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ItemMenu&apos; on DomainRelationship &apos;ItemMenuReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesEstadoFin/EstadoFin.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesEstadoFin.EstadoFin</value>
+    <comment>Description for DomainRole &apos;EstadoFin&apos; on DomainRelationship &apos;ItemMenuReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesEstadoFin/EstadoFin.DisplayName" xml:space="preserve">
+    <value>Estado Fin</value>
+    <comment>DisplayName for DomainRole &apos;EstadoFin&apos; on DomainRelationship &apos;ItemMenuReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.ItemMenuReferencesEstadoFin/EstadoFin.PropertyDisplayName" xml:space="preserve">
+    <value>Item Menus</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EstadoFin&apos; on DomainRelationship &apos;ItemMenuReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesEstadoFin.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesEstadoFin</value>
+    <comment>Description for DomainClass &apos;BotonReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesEstadoFin.DisplayName" xml:space="preserve">
+    <value>Boton References Estado Fin</value>
+    <comment>DisplayName for DomainClass &apos;BotonReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesEstadoFin/Boton.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesEstadoFin.Boton</value>
+    <comment>Description for DomainRole &apos;Boton&apos; on DomainRelationship &apos;BotonReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesEstadoFin/Boton.DisplayName" xml:space="preserve">
+    <value>Boton</value>
+    <comment>DisplayName for DomainRole &apos;Boton&apos; on DomainRelationship &apos;BotonReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesEstadoFin/Boton.PropertyDisplayName" xml:space="preserve">
+    <value>Estado Fin</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Boton&apos; on DomainRelationship &apos;BotonReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesEstadoFin/EstadoFin.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesEstadoFin.EstadoFin</value>
+    <comment>Description for DomainRole &apos;EstadoFin&apos; on DomainRelationship &apos;BotonReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesEstadoFin/EstadoFin.DisplayName" xml:space="preserve">
+    <value>Estado Fin</value>
+    <comment>DisplayName for DomainRole &apos;EstadoFin&apos; on DomainRelationship &apos;BotonReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.BotonReferencesEstadoFin/EstadoFin.PropertyDisplayName" xml:space="preserve">
+    <value>Botons</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EstadoFin&apos; on DomainRelationship &apos;BotonReferencesEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaVentanaPrincipal.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.MetaforaVentanaPrincipal</value>
+    <comment>Description for DomainClass &apos;MetaforaVentanaPrincipal&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaVentanaPrincipal.DisplayName" xml:space="preserve">
+    <value>Metafora Ventana Principal</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaVentanaPrincipal&apos;</comment>
+  </data>
+  <data name="MetaforaVentanaPrincipalnombreVentanaDefaultText" xml:space="preserve">
+    <value>nombreVentana</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaVentanaPrincipalaltoDefaultText" xml:space="preserve">
+    <value>alto</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaVentanaPrincipalanchoDefaultText" xml:space="preserve">
+    <value>ancho</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaVentanaSecundaria.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.MetaforaVentanaSecundaria</value>
+    <comment>Description for DomainClass &apos;MetaforaVentanaSecundaria&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaVentanaSecundaria.DisplayName" xml:space="preserve">
+    <value>Metafora Ventana Secundaria</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaVentanaSecundaria&apos;</comment>
+  </data>
+  <data name="MetaforaVentanaSecundariaalto2DefaultText" xml:space="preserve">
+    <value>alto2</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaVentanaSecundariaancho2DefaultText" xml:space="preserve">
+    <value>ancho2</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaVentanaSecundariamodalDefaultText" xml:space="preserve">
+    <value>modal</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaMenu.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.MetaforaMenu</value>
+    <comment>Description for DomainClass &apos;MetaforaMenu&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaMenu.DisplayName" xml:space="preserve">
+    <value>Metafora Menu</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaMenu&apos;</comment>
+  </data>
+  <data name="MetaforaMenunombreMenuDefaultText" xml:space="preserve">
+    <value>nombreMenu</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaItemMenu.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.MetaforaItemMenu</value>
+    <comment>Description for DomainClass &apos;MetaforaItemMenu&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaItemMenu.DisplayName" xml:space="preserve">
+    <value>Metafora Item Menu</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaItemMenu&apos;</comment>
+  </data>
+  <data name="MetaforaItemMenunombreItemDefaultText" xml:space="preserve">
+    <value>nombreItem</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaBoton.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.MetaforaBoton</value>
+    <comment>Description for DomainClass &apos;MetaforaBoton&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaBoton.DisplayName" xml:space="preserve">
+    <value>Metafora Boton</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaBoton&apos;</comment>
+  </data>
+  <data name="MetaforaBotonnombreDefaultText" xml:space="preserve">
+    <value>nombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaEstadoFin.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.MetaforaEstadoFin</value>
+    <comment>Description for DomainClass &apos;MetaforaEstadoFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaEstadoFin.DisplayName" xml:space="preserve">
+    <value>Metafora Estado Fin</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaEstadoFin&apos;</comment>
+  </data>
+  <data name="MetaforaEstadoFinnombreDefaultText" xml:space="preserve">
+    <value>nombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaRelacionAccion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.MetaforaRelacionAccion</value>
+    <comment>Description for DomainClass &apos;MetaforaRelacionAccion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaRelacionAccion.DisplayName" xml:space="preserve">
+    <value>Metafora Relacion Accion</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaRelacionAccion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaRelacionFin.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.MetaforaRelacionFin</value>
+    <comment>Description for DomainClass &apos;MetaforaRelacionFin&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.MetaforaRelacionFin.DisplayName" xml:space="preserve">
+    <value>Metafora Relacion Fin</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaRelacionFin&apos;</comment>
+  </data>
+  <data name="FormatList" xml:space="preserve">
+    <value>RDMDCM_ProyectoIPS (*.RDMDCM_DSLProyIPS)|*.RDMDCM_DSLProyIPS</value>
+    <comment>A list of file format specifiers for the Save dialog box</comment>
+  </data>
+  <data name="ModelExplorerTitle" xml:space="preserve">
+    <value>RDMDCM_ProyectoIPS Explorer</value>
+    <comment>Model Explorer Toolwindow title</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPSDiagram.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPSDiagram</value>
+    <comment>Description for DomainClass &apos;RDMDCM_ProyectoIPSDiagram&apos;</comment>
+  </data>
+  <data name="UPM_IPS.RDMDCM_ProyectoIPS.RDMDCM_ProyectoIPSDiagram.DisplayName" xml:space="preserve">
+    <value>Minimal Language Diagram</value>
+    <comment>DisplayName for DomainClass &apos;RDMDCM_ProyectoIPSDiagram&apos;</comment>
+  </data>
+  <data name="RDMDCM_ProyectoIPSToolboxTab" xml:space="preserve">
+    <value>RDMDCM_ProyectoIPS</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="VentanaPrincipalToolToolboxItem" xml:space="preserve">
+    <value>VentanaPrincipalTool</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="VentanaPrincipalToolToolboxTooltip" xml:space="preserve">
+    <value>Crea Ventana Principal</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="VentanaSecundariaToolToolboxItem" xml:space="preserve">
+    <value>VentanaSecundariaTool</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="VentanaSecundariaToolToolboxTooltip" xml:space="preserve">
+    <value>Crea Ventana Secundaria</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EstadoFinToolToolboxItem" xml:space="preserve">
+    <value>EstadoFinTool</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EstadoFinToolToolboxTooltip" xml:space="preserve">
+    <value>Crea estado de fin</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ItemMenuToolToolboxItem" xml:space="preserve">
+    <value>ItemMenuTool</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ItemMenuToolToolboxTooltip" xml:space="preserve">
+    <value>Item Menu Tool</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="BotonToolToolboxItem" xml:space="preserve">
+    <value>BotonTool</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="BotonToolToolboxTooltip" xml:space="preserve">
+    <value>Boton Tool</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="MenuToolToolboxItem" xml:space="preserve">
+    <value>MenuTool</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="MenuToolToolboxTooltip" xml:space="preserve">
+    <value>Menu Tool</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RDMDCM_ProyectoIPS2ToolboxTab" xml:space="preserve">
+    <value>RDMDCM_ProyectoIPS2</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="RelacionAccionToolboxItem" xml:space="preserve">
+    <value>RelacionAccion</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RelacionAccionToolboxTooltip" xml:space="preserve">
+    <value>Relacion Accion</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RelacionFinToolboxItem" xml:space="preserve">
+    <value>RelacionFin</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RelacionFinToolboxTooltip" xml:space="preserve">
+    <value>Relacion Fin</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UnresolvedToolboxItem" xml:space="preserve">
+    <value>ToolboxItem {0} was not found</value>
+    <comment>Invalid toolId</comment>
+  </data>
+  <data name="UnsupportedToolboxFormat" xml:space="preserve">
+    <value>Unsupported toolbox format: {0}</value>
+    <comment>Unsupported format Id</comment>
+  </data>
+  <data name="UnrecognizedElementType" xml:space="preserve">
+    <value>ElementType {0} is not recognized as a type of domain class which belongs to this domain model.</value>
+    <comment>Incorrect ElementType passed in to Model.CreateElement method</comment>
+  </data>
+  <data name="UnrecognizedElementLinkType" xml:space="preserve">
+    <value>ElementLinkType {0} is not recognized as a type of domain relationship which belongs to this domain model.</value>
+    <comment>Incorrect ElementLinkType passed in to Model.CreateElementLink method</comment>
+  </data>
+  <data name="AmbiguousSchema" xml:space="preserve">
+    <value>More than one schema found for target namespace &apos;{0}&apos;, use the first one at &apos;{1}&apos;.</value>
+    <comment>Serialization Warning: AmbiguousSchema</comment>
+  </data>
+  <data name="ExpectingFullFormRelationship" xml:space="preserve">
+    <value>Element &apos;{0}&apos; is treated as the target role-player of a relationship &apos;{1}&apos; instance, which should be serialized in full-form.</value>
+    <comment>Serialization Warning: ExpectingFullFormRelationship</comment>
+  </data>
+  <data name="ExpectingShortFormRelationship" xml:space="preserve">
+    <value>Instances of relationship &apos;{0}&apos; should be serialized in short-form.</value>
+    <comment>Serialization Warning: ExpectingShortFormRelationship</comment>
+  </data>
+  <data name="IgnoredPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;, ignored.</value>
+    <comment>Serialization Warning: IgnoredPropertyValue</comment>
+  </data>
+  <data name="MissingId" xml:space="preserve">
+    <value>Missing &apos;Id&apos; attribute, a new Guid &apos;{0}&apos; is auto-generated.</value>
+    <comment>Serialization Warning: MissingId</comment>
+  </data>
+  <data name="MonikerResolvedToDuplicateLink" xml:space="preserve">
+    <value>Resolving moniker &apos;{0}&apos; causes a duplicate link to be created, so the link and the moniker are ignored.</value>
+    <comment>Serialization Warning: MonikerResolvedToDuplicateLink</comment>
+  </data>
+  <data name="NoSchema" xml:space="preserve">
+    <value>Cannot find a schema that defines target namespace &apos;{0}&apos;, schema validation skipped.</value>
+    <comment>Serialization Warning: NoSchema</comment>
+  </data>
+  <data name="UnexpectedXmlElement" xml:space="preserve">
+    <value>Unexpected XML element &apos;{0}&apos;, ignored.</value>
+    <comment>Serialization Warning: UnexpectedXmlElement</comment>
+  </data>
+  <data name="AmbiguousMoniker" xml:space="preserve">
+    <value>Ambiguous moniker &apos;{0}&apos; encountered. It is used for both &apos;{1}&apos; and &apos;{2}&apos;.</value>
+    <comment>Serialization Error: AmbiguousMoniker</comment>
+  </data>
+  <data name="CannotMonikerizeElement" xml:space="preserve">
+    <value>Instances of DomainClass &apos;{0}&apos; cannot be serialized as a moniker.
+A DomainClass can be serialized as a moniker only if 
+1) it has a defined/inherited DomainProperty marked as IsMonikerKey=true, or 
+2) it is marked/inherited with SerializeId=true.</value>
+    <comment>Serialization Error: CannotMonikerizeElement</comment>
+  </data>
+  <data name="CannotOpenDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotOpenDocument</comment>
+  </data>
+  <data name="CannotSaveDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotSaveDocument</comment>
+  </data>
+  <data name="DanglingRelationship" xml:space="preserve">
+    <value>Relationship &apos;{0}&apos; instance is missing target role-player.</value>
+    <comment>Serialization Error: DanglingRelationship</comment>
+  </data>
+  <data name="InvalidPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;.</value>
+    <comment>Serialization Error: InvalidPropertyValue</comment>
+  </data>
+  <data name="MissingMoniker" xml:space="preserve">
+    <value>Missing moniker. A moniker is expected in attribute &apos;{0}&apos;.</value>
+    <comment>Serialization Error: MissingMoniker</comment>
+  </data>
+  <data name="MissingTransaction" xml:space="preserve">
+    <value>This must be called within the context of an active transaction.</value>
+    <comment>Serialization Error: MissingTransaction</comment>
+  </data>
+  <data name="UnresolvedMoniker" xml:space="preserve">
+    <value>Cannot resolve moniker &apos;{0}&apos;.</value>
+    <comment>Serialization Error: UnresolvedMoniker</comment>
+  </data>
+  <data name="VersionMismatch" xml:space="preserve">
+    <value>Unsupported version &apos;{0}&apos;, can only support &apos;{1}&apos;.</value>
+    <comment>Serialization Error: VersionMismatch</comment>
+  </data>
+  <data name="CannotCloseExistingDiagramDocument" xml:space="preserve">
+    <value>Diagram file &apos;{0}&apos; cannot be closed.</value>
+    <comment>User cancel closing diagram file. Hence, the DSL model file cannot be opened</comment>
+  </data>
+  <data name="BindingErrorOccurred" xml:space="preserve">
+    <value>Extensions for this designer may not be found as a MEF binding error has occurred. The error that occurred was:
+{0}</value>
+    <comment>MEF binding error occurred - exception message being logged in the error window so the user is aware.</comment>
+  </data>
+  <data name="InvalidSaveRootElementType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid root element type.</value>
+    <comment>Exception message used if an invalid root element type is passed to IDomainModelSerializer.SaveModel / SaveModelAndDiagram</comment>
+  </data>
+  <data name="InvalidSaveDiagramType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid diagram type.</value>
+    <comment>Exception message used if an invalid diagram type is passed to IDomainModelSerializer.SaveModelAndDiagram</comment>
+  </data>
+  <data name="MinimumMultiplicityMissingLink" xml:space="preserve">
+    <value>{0} {1} has no {2}.</value>
+    <comment>Multiplicity underflow validation.</comment>
+  </data>
+  <data name="SaveOperationCancelled" xml:space="preserve">
+    <value>Save operation cancelled.</value>
+    <comment>Message when save is cancelled on validation errors</comment>
+  </data>
+  <data name="SaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors, continue save?</value>
+    <comment>Message when validation errors are found on save</comment>
+  </data>
+  <data name="UnloadableSaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors. Continuing to save may cause the file to become unloadable, do you want to continue?</value>
+    <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="VentanaPrincipalToolToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\VentanaPrincipal.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="VentanaSecundariaToolToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\VentanaSecundaria.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EstadoFinToolToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\EstadoFin.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ItemMenuToolToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ItemMenu.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="BotonToolToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Boton.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="MenuToolToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Menu.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelacionAccionToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\RelacionAccion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelacionFinToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\RelacionFin.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+</root>
+
+

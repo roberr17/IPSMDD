@@ -161,6 +161,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\Boton.bmp" />
+    <Content Include="Resources\EstadoFin.bmp" />
+    <Content Include="Resources\ItemMenu.bmp" />
+    <Content Include="Resources\Menu.bmp" />
+    <Content Include="Resources\RelacionAccion.bmp" />
+    <Content Include="Resources\RelacionFin.bmp" />
+    <Content Include="Resources\VentanaPrincipal.bmp" />
+    <Content Include="Resources\VentanaSecundaria.bmp" />
     <None Include="DslDefinition.dsl.diagram">
       <DependentUpon>DslDefinition.dsl</DependentUpon>
     </None>

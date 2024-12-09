@@ -15937,20 +15937,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rober\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rober\\Desktop\\MDD\\IPSMDD\\DslPackage\\DslPackage.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\CURSO2024_2025\\MDD1\\IPSMDD\\DslPackage\\DslPackage.csproj",
       "projectName": "UPM_IPS.RDMDCM_ProyectoIPS.DslPackage",
-      "projectPath": "C:\\Users\\rober\\Desktop\\MDD\\IPSMDD\\DslPackage\\DslPackage.csproj",
-      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rober\\Desktop\\MDD\\IPSMDD\\DslPackage\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\CURSO2024_2025\\MDD1\\IPSMDD\\DslPackage\\DslPackage.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\CURSO2024_2025\\MDD1\\IPSMDD\\DslPackage\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -15963,16 +15963,11 @@
       "frameworks": {
         "net472": {
           "projectReferences": {
-            "C:\\Users\\rober\\Desktop\\MDD\\IPSMDD\\Dsl\\Dsl.csproj": {
-              "projectPath": "C:\\Users\\rober\\Desktop\\MDD\\IPSMDD\\Dsl\\Dsl.csproj"
+            "C:\\Users\\Usuario\\OneDrive\\Escritorio\\CURSO2024_2025\\MDD1\\IPSMDD\\Dsl\\Dsl.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\CURSO2024_2025\\MDD1\\IPSMDD\\Dsl\\Dsl.csproj"
             }
           }
         }
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

@@ -67,7 +67,7 @@ namespace UPM_IPS.RDMDCM_ProyectoIPS
 		///</summary>
 		protected override global::System.Guid RootElementDomainClassId
 		{
-			get { return global::UPM_IPS.RDMDCM_ProyectoIPS.ExampleModel.DomainClassId; }
+			get { return global::UPM_IPS.RDMDCM_ProyectoIPS.Tapiz.DomainClassId; }
 		}
 		
 		/// <summary>
